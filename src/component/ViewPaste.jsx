@@ -38,6 +38,16 @@ function ViewPaste() {
                     rows={20}
                 ></textarea>
             </div>
+            {/* <div className='mt-8'>
+                <textarea
+                    className='rounded-2xl mt-4 min-w-[500px] p-4'
+                    value={paste.content}
+                    placeholder='Enter the content'
+                    disabled
+                    onChange={(e) => setValue(e.target.value)}
+                    rows={20}
+                ></textarea>
+            </div> */}
         </div>
     )
 }
